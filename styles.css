@@ -1,0 +1,62 @@
+body {
+  background-image: url(images/all.png);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 120%;
+  margin: auto;
+}
+
+.btn {
+  margin: 1rem;
+  display: inline-block;
+  height: 4rem;
+  width: 4rem;
+  border: 10px solid black;
+  border-radius: 20%;
+  padding: 4rem;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.gryf {
+background-image: url(images/gryffindor.png);
+}
+
+.slyt {
+  background-image: url(images/slytherin.png);
+}
+
+.rave {
+  background-image: url(images/ravenclaw.png);
+}
+
+.huff {
+  background-image: url(images/hufflepuff.png);
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+}
